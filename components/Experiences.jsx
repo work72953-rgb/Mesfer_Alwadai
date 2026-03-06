@@ -3,7 +3,7 @@ import Experiences_data from '../data/Experiences.json'
 export default function Experiences() {
   return (
     <div className={` my-4 rounded-lg p-[var(--main-padding)] card flex flex-col gap-2.5`}>
-        <h1 className='title'>الخبرات</h1>
+        <h1 className='title'>الخبرات المهنية</h1>
    {
     Experiences_data.map((e)=>(
           <div className={`exp bg-gray-100/90 p-2 flex flex-col gap-3`} key={e.id}>

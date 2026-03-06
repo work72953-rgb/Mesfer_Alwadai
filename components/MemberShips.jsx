@@ -8,7 +8,7 @@ export default function MemberShips() {
         "جمعية معين القانونية"
     ]
   return (
-    <div className="my-4 rounded-lg p-6 card flex flex-col gap-3">
+    <div className="my-4 p-[var(--main-padding)] rounded-lg p-6 card flex flex-col gap-3">
       <h1 className="title">العضويات</h1>
 
       <div className="flex flex-col bg-gray-100/90 p-3 rounded-md">
