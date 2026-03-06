@@ -62,6 +62,12 @@ export default function About() {
           <Image src={"/mail.svg"} alt={"mail icon"} width={30} height={30} />
         </a>
       </div>
+      <div className={`cv w-full flex justify-center items-center`}>
+
+      <button className={`w-full text-lg font-semibold md:w-70 bg-black/60 cursor-pointer text-white py-2 rounded-md`}>
+      <a href="https://drive.google.com/file/d/180g-mXdhFxJHZqnmpGFd_exL-j28t6dn/view">تصفح السيرة الذاتية</a>
+      </button>
+      </div>
     </div>
   );
 }
