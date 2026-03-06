@@ -23,7 +23,7 @@ const changa = Changa({
 });
 
 export const metadata = {
-  title: "Personal Portfolio",
+  title: " مسفر الوادعي",
   description: "Personal Client Portfolio",
   icons: [{ rel: "icon", url: "icon.ico" }],
 };
