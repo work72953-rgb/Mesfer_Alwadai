@@ -31,7 +31,7 @@ export default function Skills() {
       <div className="flex flex-col items-center gap-5">
         <div className="tec skills">
           <span className="block text-center text-xl font-semibold my-7 mx-auto p-1 w-[250px] bg-gray-200/70">
-            المهارات التقنية
+            المهارات المهنية
           </span>
 
           <ul className="flex justify-center items-center gap-3 flex-wrap">
