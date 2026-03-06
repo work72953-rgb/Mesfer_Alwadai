@@ -12,12 +12,12 @@ export default function Licenses() {
       <h1 className="title">التراخيص</h1>
 
      <div className="flex flex-col bg-gray-100/90 p-3 rounded-md">
-        <span className="main-font-size font-bold">رخصة تمثيل قانوني</span>
+        <span className="main-font-size font-bold">رخصة ممارسة التمثيل القانوني</span>
         <span className="sub-font-size">وزارة العدل</span>
       </div>
 
         <div className="flex flex-col bg-gray-100/90 p-3 rounded-md">
-        <span className="main-font-size font-bold">رخصة تسجيل عقارات</span>
+        <span className="main-font-size font-bold">رخصة ممارسة تسجيل العقارات</span>
         <span className="sub-font-size"> الهيئة العامة للعقار</span>
       </div>
 
