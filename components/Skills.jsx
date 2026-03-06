@@ -1,26 +1,31 @@
 import React from "react";
-import { BarChart3, FileChartColumn, BookOpen, Table, HardDrive, Boxes, MessageCircle, Users, Clock } from "lucide-react";
+import { BarChart3, FileText, FileSignature, ShieldCheck, Users, BookOpen, Lock, Settings, Users2, MessageCircle, Target, HeartHandshake, Zap } from "lucide-react";
 
 // المهارات التقنية مع الأيقونات
 const tecSkills = [
-  { title: "التحليل المالي", icon: <BarChart3 size={20} /> },
-  { title: "إعداد التقارير المالية", icon: <FileChartColumn size={20} /> },
-  { title: "إدارة الحسابات العامة", icon: <BookOpen size={20} /> },
-  { title: "مهارات Excel المتقدمة", icon: <Table size={20} /> },
-  { title: "استخدام قواعد البيانات", icon: <HardDrive size={20} /> },
-  { title: "استخدام أنظمة ERP", icon: <Boxes size={20} /> },
+  { title: "الامتثال للقانون التجاري", icon: <FileText size={20} /> },
+  { title: "تقييم وإدارة المخاطر", icon: <ShieldCheck size={20} /> },
+  { title: "صياغة العقود والتفاوض", icon: <FileSignature size={20} /> },
+  { title: "الحوكمة والإشراف التنظيمي", icon: <Settings size={20} /> },
+  { title: "استراتيجيات وسياسات الموارد البشرية", icon: <Users size={20} /> },
+  { title: "التدقيق القانوني وإعداد التقارير", icon: <BookOpen size={20} /> },
+  { title: "الامتثال للخصوصية والأمن السيبراني", icon: <Lock size={20} /> },
 ];
 
-// المهارات الناعمة مع الأيقونات
+// المهارات الشخصية مع الأيقونات
 const softSkills = [
-  { title: "التواصل", icon: <MessageCircle size={20} /> },
-  { title: "العمل ضمن فريق", icon: <Users size={20} /> },
-  { title: "إدارة الوقت", icon: <Clock size={20} /> },
+  { title: "القيادة والتخطيط الاستراتيجي", icon: <Target size={20} /> },
+  { title: "حل المشكلات واتخاذ القرارات", icon: <Zap size={20} /> },
+  { title: "الاتصال والتفاوض", icon: <MessageCircle size={20} /> },
+  { title: "إدارة الفريق والتعاون", icon: <Users2 size={20} /> },
+  { title: "المرونة والتكيف", icon: <HeartHandshake size={20} /> },
+  { title: "حل النزاعات والوساطة", icon: <FileText size={20} /> },
+  { title: "التفكير النقدي والتحليلي", icon: <BarChart3 size={20} /> },
 ];
 
 export default function Skills() {
   return (
-    <div className="my-4 rounded-lg p-(--main-padding) card">
+    <div className="my-4 rounded-lg p-6 card">
       <h1 className="title">المهارات</h1>
 
       <div className="flex flex-col items-center gap-5">
@@ -43,7 +48,7 @@ export default function Skills() {
 
         <div className="soft skills">
           <span className="block text-center text-xl font-semibold my-7 mx-auto p-1 w-[250px] bg-gray-200/70">
-            المهارات الناعمة
+            المهارات الشخصية
           </span>
 
           <ul className="flex justify-center items-center gap-3 flex-wrap">

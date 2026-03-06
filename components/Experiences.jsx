@@ -12,7 +12,7 @@ export default function Experiences() {
         <span className={`sub-font-size`}> {e.comp_name}</span>
         <span className={`flex items-center gap-3`}>
           <span className={`sub-font-size`}>{e.stDate}</span>
-          to
+          إلى
           <span className={`sub-font-size`}>{e.endDate}</span>
         </span>
       </span>

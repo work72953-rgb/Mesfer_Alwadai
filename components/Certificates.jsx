@@ -17,17 +17,17 @@ export default function Certificates() {
         card relative
     `}
     >
-      <h1 className='title'>الشهادات</h1>
+      <h1 className='title_2'>الشهادات المهنية</h1>
       <div
         className={`
           
     flex flex-wrap justify-center items-center gap-5 overflow-hidden
-    ${show?'h-auto overflow-auto': cert.length >6? 'max-sm:h-[265px] md:h-[530px] lg:h-[730px]':''}
+    ${show?'h-auto overflow-auto': cert.length >6? 'max-sm:h-66.25 md:h-132.5 lg:h-182.5':''}
     `}
       >
         {cert.map((c, idx) => (
           <div
-            className={`img w-full h-[250px] md:w-[300px] lg:w-[450px] lg:h-[350px]
+            className={`img w-full h-62.5 md:w-75 lg:w-112.5 lg:h-87.5
                        relative overflow-hidden 
                         border  bg-center shrink-0 `}
                         key={idx}
@@ -38,8 +38,8 @@ export default function Certificates() {
       </div>
        {
         cert.length > 6?  <button className={`bg-black/70 p-2 rounded-md text-white 
-        w-[200px] 
-        block mx-auto mt-[15px]
+        w-50 
+        block mx-auto mt-3.75
           `} onClick={ShowContent}>
 {show?'عرض أقل':'أظهر المزيد'}
           </button> : ''
