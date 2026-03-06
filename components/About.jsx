@@ -25,12 +25,12 @@ export default function About() {
         {/* Summary */}
         <div className="summry">
           <h1 className="font-bold text-2xl">
-            أنا مسفر الوادعي{" "}
+             مسفر الوادعي{" "}
             <span className="text-[#feb429] leading-16">
               أخصائي قانوني وأمني وحوكمة{" "}
             </span>
           </h1>
-          <p className="w-full lg:w-[600px] text-lg leading-10">
+          <p className="w-full lg:w-150 text-lg leading-10">
             محترف قانوني وتنفيذي في حوكمة الشركات وإدارة المخاطر والامتثال (GRC)
             أتمتع بخلفية قانونية قوية ودورات تدريبية تنفيذية دولية متقدمة. أمتلك
             خبرة واسعة في القانون التجاري الدولي، الحوكمة البيئية والاجتماعية،
