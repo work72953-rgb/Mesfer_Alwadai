@@ -16,7 +16,7 @@ export default function MemberShips() {
 
       </ul>
       {memberships.map((m,idx)=>(
-          <li className="text-[16px] md:main-font-size font-bold mx-6" key={idx}>{m}</li>
+          <li className="main-font-size font-bold mx-6" key={idx}>{m}</li>
       ))}
 
       </div>
