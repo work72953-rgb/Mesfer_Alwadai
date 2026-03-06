@@ -28,7 +28,8 @@ export default function Certificates() {
             <Image src={`/certificates/${c.img}.png`} alt={c.title} fill className="object-cover" />
             <div className="absolute bottom-0 w-full bg-black/60 text-white p-2 text-sm text-center">
               <div>{c.title}</div>
-              <div className="text-xs">{c.issuer}</div>
+              <div className="text-xs my-2">{c.issuer}</div>
+              <span className="px-2 py-1 rounded-md bg-black/40">انقر للاطلاع على الشهادة</span>
             </div>
           </div>
         ))}
