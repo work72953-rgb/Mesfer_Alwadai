@@ -19,7 +19,7 @@ export default function FieldExperiences() {
 
       </ul>
       {fields.map((f,idx)=>(
-          <li className="text-[16px] md:main-font-size font-bold mx-6" key={idx}>{f}</li>
+          <li className="text-md md:text-[20px] font-semibold mx-6" key={idx}>{f}</li>
       ))}
 
       </div>
