@@ -3,7 +3,7 @@ import React from "react";
 export default function Education() {
   return (
     <div className="my-4 p-[var(--main-padding)] rounded-lg p-6 card flex flex-col gap-3">
-      <h1 className="title">التعليم</h1>
+      <h1 className="title">المؤهلات العلمية</h1>
 
       {/* جامعة الملك سعود - ماجستير قانون */}
       <div className="flex flex-col bg-gray-100/90 p-3 rounded-md">
