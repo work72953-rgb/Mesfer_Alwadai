@@ -19,7 +19,7 @@ export default function Education() {
           ar: "عنوان البحث: المسؤولية الجنائية عن أخطاء الذكاء الاصطناعي",
           en: "Thesis: Criminal Liability for Artificial Intelligence Errors",
         },
-        link: "https://www.mediafire.com/file/hyh4n7mldeq5q5h/%25D8%25A7%25D9%2584%25D9%2585%25D8%25B3%25D8%25A4%25D9%2588%25D9%2584%25D9%258A%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25AC%25D9%2586%25D8%25A7%25D8%25A6%25D9%258A%25D8%25A9_%25D8%25B9%25D9%2586_%25D8%25A3%25D8%25AE%25D8%25B7%25D8%25A7%25D8%25A1_%25D8%25A7%25D9%2584%25D8%25B0%25D9%2583%25D8%25A7%25D8%25A1_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25B5%25D8%25B7%25D9%2586%25D8%25A7%25D8%25B9%25D9%258A.pdf/file",
+        link: "https://download1979.mediafire.com/cg9u3vjh816gVhVW2z2840C9_xBcZU6MiTWWA8GN_-mRzSYmVn2NMw7wDbKp77hjHel7RSXF1KPC9-HDdB8StUjGeFJF7BreMnqHLGJ4O1MRWJ1EkhD8irrIHPFxRfSnFJdUgrky-7mh8dQnKzHbhG2cEI6cQkHXmYsuT701F2_fCZg/hyh4n7mldeq5q5h/%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9+%D8%B9%D9%86+%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A.pdf",
       },
     },
     {
