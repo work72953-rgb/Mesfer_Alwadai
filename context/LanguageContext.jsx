@@ -4,23 +4,22 @@ import { createContext, useState, useEffect } from "react";
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  // Initialize language from localStorage if available, otherwise default to "ar"
-  const [lang, setLang] = useState(() => {
-    return localStorage.getItem("lang") || "ar";
-  });
+  // Default language; do not access localStorage here
+  const [lang, setLang] = useState("ar");
+
+  // Load language from localStorage on client side
+  useEffect(() => {
+    const savedLang = localStorage.getItem("lang");
+    if (savedLang) setLang(savedLang);
+  }, []);
 
   const toggleLang = () => {
     setLang((prev) => {
       const newLang = prev === "ar" ? "en" : "ar";
-      localStorage.setItem("lang", newLang); // save to localStorage
+      localStorage.setItem("lang", newLang); // save in browser
       return newLang;
     });
   };
-
-  // Optional: sync with localStorage if it changes outside
-  useEffect(() => {
-    localStorage.setItem("lang", lang);
-  }, [lang]);
 
   return (
     <LanguageContext.Provider value={{ lang, toggleLang }}>
