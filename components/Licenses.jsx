@@ -9,11 +9,13 @@ export default function Licenses() {
   const licenses = lang === "ar"
     ? [
         { title: "رخصة ممارسة التمثيل القانوني", issuer: "وزارة العدل" },
-        { title: "رخصة ممارسة تسجيل العقارات", issuer: "الهيئة العامة للعقار" }
+        { title: "رخصة ممارسة تسجيل العقارات", issuer: "الهيئة العامة للعقار" },
+        { title: "الاعتماد المهني السعودي للقانونيين (SASL)", issuer: "الهيئة السعودية للمحامين" }
       ]
     : [
         { title: "Legal Representation License", issuer: "Ministry of Justice" },
-        { title: "Real Estate Registration License", issuer: "General Authority for Real Estate" }
+        { title: "Real Estate Registration License", issuer: "General Authority for Real Estate" },
+        { title: "Saudi Accredited Legal Professional (SASL)", issuer: "Saudi Bar Association" }
       ];
 
   return (

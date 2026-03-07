@@ -7,6 +7,7 @@ import Courses from './Courses'
 import MemberShips from './MemberShips'
 import Licenses from './Licenses'
 import FieldExperiences from './FieldExperiences'
+import Languages from './Languages'
 
 
 
@@ -21,6 +22,7 @@ export default function Parent() {
       <Certificates/>
       <MemberShips/>
       <Licenses/>
+      <Languages/>
       {/* <Courses/> */}
       
     </div>
