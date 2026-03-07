@@ -41,7 +41,7 @@ export default function Skills() {
             {tecSkills.map((t, idx) => (
               <li
                 key={idx}
-                className="sub-font-size flex items-center gap-2 even:bg-violet-100/40 odd:bg-cyan-100/50 rounded-md p-2"
+                className="max-sm:w-full sub-font-size flex items-center gap-2 even:bg-violet-100/40 odd:bg-cyan-100/50 rounded-md p-2"
               >
                 {t.icon} {t.title[lang]}
               </li>
@@ -58,7 +58,7 @@ export default function Skills() {
             {softSkills.map((s, idx) => (
               <li
                 key={idx}
-                className="sub-font-size flex items-center gap-2 even:bg-violet-100/40 odd:bg-cyan-100/50 rounded-md p-2"
+                className="max-sm:w-full sub-font-size flex items-center gap-2 even:bg-violet-100/40 odd:bg-cyan-100/50 rounded-md p-2"
               >
                 {s.icon} {s.title[lang]}
               </li>
