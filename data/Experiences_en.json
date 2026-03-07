@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "job_title": "Senior Legal & GRC Specialist",
+    "comp_name": "HuaTie International Equipment Holding, Riyadh",
+    "stDate": "Sep 2025",
+    "endDate": "Present",
+    "tasks": [
+      "Oversee corporate legal matters and ensure compliance with local and international regulations.",
+      "Draft, review, and negotiate contracts to minimize organizational risks.",
+      "Lead legal risk assessments and implement mitigation strategies across departments.",
+      "Advise senior management on corporate governance, regulatory updates, and strategic decisions."
+    ]
+  },
+  {
+    "id": "2",
+    "job_title": "Legal Specialist",
+    "comp_name": "Al Khaleej Training and Education, Riyadh",
+    "stDate": "Dec 2023",
+    "endDate": "Aug 2025",
+    "tasks": [
+      "Reviewed and updated company policies to align with Saudi legal regulations.",
+      "Supported HR and management in employment law compliance and contract management.",
+      "Conducted internal legal audits to mitigate potential risks.",
+      "Provided training sessions on legal awareness and compliance for staff."
+    ]
+  },
+  {
+    "id": "3",
+    "job_title": "Human Resources Assistant",
+    "comp_name": "Al Khaleej Training and Education, Riyadh",
+    "stDate": "May 2020",
+    "endDate": "Nov 2023",
+    "tasks": [
+      "Developed and implemented HR strategies and policies aligned with organizational goals.",
+      "Managed recruitment, onboarding, and performance management processes.",
+      "Oversaw employee relations, conflict resolution, and compliance with labor laws.",
+      "Coordinated training programs to enhance workforce skills and engagement."
+    ]
+  }
+]
