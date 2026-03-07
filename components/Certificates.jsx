@@ -15,7 +15,11 @@ export default function Certificates() {
 
   return (
     <div className="w-full my-4 rounded-lg p-[var(--main-padding)] card relative">
-      <h1 className={`title mb-4`}  style={lang === "en" ? { width: "320px" } : {}}>{lang==="ar"?"الشهادات المهنية":"Professional Certificates"}</h1>
+      <h1 className={`
+      text-xl font-semibold
+        md:text-[24px] md:font-extrabold leading-10.5 bg-black/85 text-white 
+         text-center rounded-md mb-6 w-full md:w-75
+        `}>{lang==="ar"?"الشهادات المهنية":"Professional Certificates"}</h1>
 
       <div
         className={`
