@@ -43,7 +43,7 @@ const content = {
             alt="my pic"
             width={300}
             height={300}
-            className="mt-12"
+            className="mt-15 ml-4"
           />
         </div>
 
