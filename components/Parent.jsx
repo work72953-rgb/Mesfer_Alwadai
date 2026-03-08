@@ -15,11 +15,11 @@ export default function Parent() {
   return (
     <div className='container m-auto  p-[var(--main-padding)] flex flex-col gap-2'>
       <About/>
-      <Skills/>
       <FieldExperiences/>
       <Experiences/>
       <Education/>
       <Certificates/>
+      <Skills/>
       <MemberShips/>
       <Licenses/>
       <Languages/>
