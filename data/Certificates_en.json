@@ -134,6 +134,11 @@
     "issuer": "Institute of Public Administration",
     "img": "img_27"
   },
+{
+  "title": "Information Technology GRC Professional (ITGRCP)",
+  "issuer": "OCEG",
+  "img": "img_28"
+},
   {
     "title": "Securities and Investment ( CME-1 )",
     "issuer": "The Chartered Institute for Securities & Investment (The CISI)",
@@ -142,11 +147,5 @@
   {
     "title": "Misk for Professional Development",
     "issuer": "Misk Skills",
-    "img": ""
-  },
-  {
-    "title": "Information Technology GRC Professional (ITGRCP)",
-    "issuer": "OCEG",
-    "img": ""
-  }
+    "img": ""}
 ]

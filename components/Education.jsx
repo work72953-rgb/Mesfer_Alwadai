@@ -31,10 +31,7 @@ export default function Education() {
       year: { ar: "سنة التخرج: 2023", en: "Graduation Year: 2023" },
     },
     ,
-{
-  title: { ar: "القيادة والتواصل | برنامج تنفيذي", en: "Leadership & Communication | Executive Program" },
-  university: { ar: "جامعة هارفرد", en: "Harvard University" },
-},
+
     {
       title: {
         ar: "الذكاء الاصطناعي للمحامين | برنامج تنفيذي",
