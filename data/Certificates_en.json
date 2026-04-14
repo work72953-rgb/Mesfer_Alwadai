@@ -139,13 +139,13 @@
   "issuer": "OCEG",
   "img": "img_28"
 },
+
+{
+  "title": "Misk for Professional Development",
+  "issuer": "Misk Skills",
+  "img": "img_29"},
   {
     "title": "Securities and Investment ( CME-1 )",
     "issuer": "The Chartered Institute for Securities & Investment (The CISI)",
-    "img": ""
-  },
-  {
-    "title": "Misk for Professional Development",
-    "issuer": "Misk Skills",
     "img": ""}
 ]
