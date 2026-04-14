@@ -6,18 +6,35 @@ import { LanguageContext } from "@/context/LanguageContext";
 
 export default function About() {
   const { lang } = useContext(LanguageContext);
+const Ar_summary =`
 
+مختص قانوني ومحترف الحوكمة وإدارة المخاطر والامتثال، حاصل على درجة الماجستير في القانون العام (LLM) مع مرتبة الشرف الأولى من جامعة الملك سعود بالإضافة إلى برنامج القيادة التنفيذية من جامعة أكسفورد ( University of Oxford )
+
+يمتلك خبرة تتجاوز أربع سنوات، ركّز خلالها على تطوير الأطر القانونية، وبناء سياسات الحوكمة، وتصميم أنظمة الامتثال، إلى جانب تقديم الاستشارات القانونية الاستراتيجية للإدارة العليا بما يدعم تحقيق الأهداف المؤسسية ويعزز النمو المستدام.
+
+يحمل مجموعة من الشهادات المهنية العالمية في الحوكمة والامتثال وإدارة المخاطر، من أبرزها: GRCP®, CME-1®, GRCA®, CCO®, SASL®, ICCGO®, CRMP®, IRMP®, IPMP®, ICEP®, IAIP®, IDPP®, IAAP®
+`
+
+const En_summary = `
+      Legal and GRC professional holding a Master of Public Law ( LLM )
+       with First Class Honors from King Saud University, along with executive professional training
+        from University of Oxford. Focused on legal affairs, governance, risk, and compliance, 
+        with over four years of experience. Led the development of legal frameworks, governance policies, 
+        and compliance structures, while providing strategic legal advisory to senior management 
+        to support organizational objectives and drive sustainable growth. Holds multiple globally 
+        recognized certifications in GRC, compliance, and risk management, 
+        including GRCP®, CME-1®, GRCA®, CCO®, SASL®, ICCGO®, CRMP®, IRMP®, IPMP®, ICEP®, IAIP®, IDPP®, and IAAP®.
+
+`
 const content = {
   ar: {
     title: "خبير الحوكمة والمخاطر والامتثال",
-    summary:
-      "مسؤول الشؤون القانونية، حاصل على درجة الماجستير في القانون من جامعة الملك سعود بمرتبة الشرف، إضافة إلى برنامج أكسفورد التنفيذي وعدد من الشهادات الدولية المتقدمة في الحوكمة وإدارة المخاطر والامتثال مثل GRCP وGRCA وCCO وICCGO وCRMP وIRMP وIPMP وSASL وCPB وIAIP وIAAP وغيرها من الاعتمادات المهنية. أمتلك خبرة عملية تتجاوز أربع سنوات، شاركت خلالها في تأسيس أول فرع لشركة دولية قابضة، حيث قدت بناء وتطوير المنظومة القانونية للشركة وصياغة سياسات الحوكمة وتعزيز إطار الامتثال المؤسسي، مع دعم الإدارة التنفيذية العليا باستشارات قانونية تسهم في تحقيق الأهداف الاستراتيجية وضمان استدامة النمو.",
+    summary:Ar_summary,
     button: "تصفح السيرة الذاتية",
   },
   en: {
     title: "Governance, Risk & Compliance Expert",
-    summary:
-      "Legal Affairs Officer holding a Master’s degree in Law with honors from King Saud University, in addition to completing the Oxford Executive Program and obtaining several advanced international certifications in governance, risk management, and compliance, including GRCP, GRCA, CCO, ICCGO, CRMP, IRMP, IPMP, SASL, CPB, IAIP, and IAAP. With over four years of professional experience, he contributed to establishing the first Saudi branch of an international holding company, where he led the development of the company’s legal framework, governance policies, and compliance structure, while providing strategic legal advisory to senior management to support organizational objectives and ensure sustainable growth.",
+    summary:En_summary,
     button: "View Resume",
   },
 };
@@ -57,7 +74,7 @@ const content = {
       {/* CV Button */}
       <div className="cv w-full flex justify-center items-center mt-6">
         <button className="w-full text-lg font-semibold md:w-70 bg-black/60 cursor-pointer text-white py-2 rounded-md">
-          <a href="https://drive.google.com/file/d/180g-mXdhFxJHZqnmpGFd_exL-j28t6dn/view">
+          <a href="https://drive.google.com/file/d/1lQo8nF-vXueU7-vLTMaaQi3imvr9QKa_/view?usp=drivesdk">
             {content[lang].button}
           </a>
         </button>
