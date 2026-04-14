@@ -3,17 +3,30 @@
     "id": "1",
     "job_title": "Senior Legal & GRC Specialist",
     "comp_name": "HuaTie International Equipment Holding, Riyadh",
-    "stDate": "Sep 2025",
+    "stDate": "Mar 2026",
     "endDate": "Present",
     "tasks": [
-      "Oversee corporate legal matters and ensure compliance with local and international regulations.",
-      "Draft, review, and negotiate contracts to minimize organizational risks.",
-      "Lead legal risk assessments and implement mitigation strategies across departments.",
-      "Advise senior management on corporate governance, regulatory updates, and strategic decisions."
+      "Led the establishment and governance of the Legal & GRC function for KSA operations at HuaTie International Equipment Holding.",
+      " Advised senior management on legal strategy, regulatory compliance, and risk mitigation to enhance operational integrity.",
+      " Managed complex contracts and corporate legal matters, ensuring alignment with Saudi regulations and best practices."
     ]
   },
   {
     "id": "2",
+    "job_title": "Legal & GRC Specialist",
+    "comp_name": "HuaTie International Equipment Holding, Riyadh",
+    "stDate": "Nov 2025",
+    "endDate": "Mar 2026",
+    "tasks": [
+      "Supported the legal and GRC setup for 3 newly established branches in Saudi Arabia.",
+      "Implemented 10+ governance, compliance, and risk policies.",
+      "Drafted and reviewed +26 commercial contracts.",
+      "Conducted compliance risk assessments and supported corrective actions.",
+      "Delivered compliance training to 30+ staff and supported management reporting."
+    ]
+  },
+  {
+    "id": "3",
     "job_title": "Legal Specialist",
     "comp_name": "Al Khaleej Training and Education, Riyadh",
     "stDate": "Dec 2023",
@@ -26,7 +39,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "4",
     "job_title": "Human Resources Assistant",
     "comp_name": "Al Khaleej Training and Education, Riyadh",
     "stDate": "May 2020",
@@ -39,7 +52,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": "5",
     "job_title": "Legal Intern",
     "comp_name": "Ministry of Justice, Saudi Arabia",
     "stDate": "Mar 2022",

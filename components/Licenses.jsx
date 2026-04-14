@@ -10,12 +10,14 @@ export default function Licenses() {
     ? [
         { title: "رخصة ممارسة التمثيل القانوني", issuer: "وزارة العدل" },
         { title: "رخصة ممارسة تسجيل العقارات", issuer: "الهيئة العامة للعقار" },
-        { title: "الاعتماد المهني السعودي للقانونيين (SASL)", issuer: "الهيئة السعودية للمحامين" }
+        { title: "الاعتماد المهني السعودي للقانونيين (SASL)", issuer: "الهيئة السعودية للمحامين" },
+        { title: "ترخيص استشارات عمالية", issuer: "وزارة الموارد البشرية والتنمية الاجتماعية" },
       ]
     : [
         { title: "Legal Representation License", issuer: "Ministry of Justice" },
         { title: "Real Estate Registration License", issuer: "General Authority for Real Estate" },
-        { title: "Saudi Accredited Legal Professional (SASL)", issuer: "Saudi Bar Association" }
+        { title: "Saudi Accredited Legal Professional (SASL)", issuer: "Saudi Bar Association" },
+        { title: "Labor Consultancy License", issuer: "The Ministry of Human Resources and Social Development" },
       ];
 
   return (

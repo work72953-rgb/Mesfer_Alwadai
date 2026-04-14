@@ -133,5 +133,20 @@
     "title": "Compliance Management Program",
     "issuer": "Institute of Public Administration",
     "img": "img_27"
+  },
+  {
+    "title": "Securities and Investment ( CME-1 )",
+    "issuer": "The Chartered Institute for Securities & Investment (The CISI)",
+    "img": ""
+  },
+  {
+    "title": "Misk for Professional Development",
+    "issuer": "Misk Skills",
+    "img": ""
+  },
+  {
+    "title": "Information Technology GRC Professional (ITGRCP)",
+    "issuer": "OCEG",
+    "img": ""
   }
 ]

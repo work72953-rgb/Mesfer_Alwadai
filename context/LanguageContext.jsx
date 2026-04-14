@@ -5,7 +5,7 @@ export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
   // Default language; do not access localStorage here
-  const [lang, setLang] = useState("ar");
+  const [lang, setLang] = useState("en");
 
   // Load language from localStorage on client side
   useEffect(() => {
