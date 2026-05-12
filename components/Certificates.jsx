@@ -33,7 +33,7 @@ export default function Certificates() {
             className="bg-white border rounded-md shadow-md overflow-hidden cursor-pointer hover:scale-105 transition-transform w-full h-72 md:w-72 lg:w-80 lg:h-80 relative"
             onClick={() => setModalImg(`/certificates/${c.img}.png`)}
           >
-            <Image src={`/certificates/${c.img}.png`} alt={c.title} fill className="object-cover" />
+            <Image src={`/certificates/${c.img}.png`} alt={`${c.title}_${idx+1}`} fill className="object-cover" />
             <div className="absolute bottom-0 w-full bg-black/60 text-white p-2 text-sm text-center">
               <div>{c.title}</div>
               <div className="text-xs my-2">{c.issuer}</div>

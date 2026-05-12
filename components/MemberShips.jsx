@@ -11,13 +11,15 @@ export default function MemberShips() {
         " الأكاديمية العالمية للتمويل والإدارة",
         "مجموعة الامتثال والأخلاقيات المفتوحة",
         "الهيئة السعودية للمحامين",
-        "جمعية معين القانونية"
+        "جمعية معين القانونية",
+        "المعهد القانوني للتأمين (CII)"
       ]
     : [
         "Global Academy of Finance and Management",
         "Open Compliance and Ethics Group (OCEG)",
         "Saudi Bar Association",
-        "Moeen Legal Association"
+        "Moeen Legal Association",
+        "Chartered Insurance Institute ( CII )"
       ];
 
   return (

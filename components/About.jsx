@@ -53,7 +53,7 @@ const content = {
         <div
           className="img w-62.5 h-62.5 md:w-75 md:h-75 relative overflow-hidden 
           rounded-full flex justify-center items-center shrink-0
-          bg-white border-4 border-black/55"
+          bg-black "
         >
           <Image
             src="/personal_photo.jpeg"
